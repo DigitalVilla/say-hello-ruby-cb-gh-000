@@ -1,8 +1,8 @@
 # Build your say_hello method here
 def say_hello(name)
   unless name
-    return "Hello #{name}!"
+  puts "Hello #{name}!"
   else
-    return "Hello Ruby Programmer!"
+    puts "Hello Ruby Programmer!"
   end
 end
